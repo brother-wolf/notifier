@@ -8,10 +8,6 @@ pub struct Auth {
 }
 
 impl Auth {
-    pub fn get_user_token_pair(&self) -> String {
-        format!("{}:{}", self.user, self.token)
-    }
-
     pub fn from_json(json: &str) -> Auth {
         serde_json::from_str(json).unwrap()
     }

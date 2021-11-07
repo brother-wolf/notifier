@@ -5,7 +5,8 @@
 * [x] Parse up the PullRequest data into struct
 * [ ] Work on Errors
 * [ ] Create BitBar display from PR data
-* [ ] get all repos for owner
+* [x] get all repos for owner
+* [x] parallelise all repos for owner
 * [ ] filter the required repos
 * [ ] get all Pull-requests for all the repos
 * [ ] order the PRs by: user-is-requested-reviewer, date
